@@ -99,8 +99,12 @@ input, select, textarea {
 	}
 
 	body {
-		background: #242943;
+		background-image: url("space3.jpg");
+		background-size: 70%;
+		background-repeat: repeat;
+		background-attachment: fixed; 
 	}
+	/* #28282B*/
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
@@ -112,6 +116,7 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
 
 /* Type */
 
@@ -1957,7 +1962,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #242943;
+			background: #28282b9d;
 		}
 
 		select:focus::-ms-value {
@@ -2043,7 +2048,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #9bf1ff;
 			content: '\f00c';
-			color: #242943;
+			color: #28282bb3;
 		}
 
 		input[type="checkbox"]:focus + label:before,
@@ -2135,7 +2140,7 @@ input, select, textarea {
 		.icon.alt:before {
 			background-color: #ffffff;
 			border-radius: 100%;
-			color: #242943;
+			color: #28282bbb;
 			display: inline-block;
 			height: 2em;
 			line-height: 2em;
@@ -2398,12 +2403,12 @@ input, select, textarea {
 
 				ul.pagination li > .page.active {
 					background-color: #ffffff;
-					color: #242943;
+					color: #28282B;
 				}
 
 					ul.pagination li > .page.active:hover {
 						background-color: #9bf1ff;
-						color: #242943 !important;
+						color: #28282B!important;
 					}
 
 					ul.pagination li > .page.active:active {
@@ -2673,7 +2678,7 @@ input, select, textarea {
 		.button.primary {
 			background-color: #ffffff;
 			box-shadow: none;
-			color: #242943;
+			color: #28282B;
 		}
 
 			input[type="submit"].primary:hover, input[type="submit"].primary:active,
@@ -2686,7 +2691,7 @@ input, select, textarea {
 			.button.primary:hover,
 			.button.primary:active {
 				background-color: #9bf1ff;
-				color: #242943 !important;
+				color: #28282B!important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2753,6 +2758,9 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			width: 40%;
+			border-radius: 50%;
+			flex: 1 0 26%;
+			margin: 1.9%;
 		}
 
 			.tiles article .image {
@@ -2831,28 +2839,42 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(6n - 5):before {
-				background-color: #87c5a4;
+				/*background-color: #87c5a4;*/
+				background-image: url("green.jpg");
+				background-size: 130%;
 			}
 
 			.tiles article:nth-child(6n - 4):before {
-				background-color: #8d82c4;
+				/*background-color: ##8d82c4*/
+				background-image: url("moon2.jpg");
+				background-size: 105%;
 			}
 
 			.tiles article:nth-child(6n - 3):before {
-				background-color: #ec8d81;
+				/*background-color: ##ec8d81*/
+				background-image: url("purple.jpg");
+				background-size: 100%;
 			}
 
 			.tiles article:nth-child(6n - 2):before {
-				background-color: #e7b788;
+				/*background-color: ##e7b788;*/
+				background-image: url("planet2.jpg");
+				background-size: 100%;
 			}
 
 			.tiles article:nth-child(6n - 1):before {
-				background-color: #8ea9e8;
+				/*background-color: ##8ea9e8;*/
+				background-image: url("blue.jpg");
+				background-size: 100%;
 			}
 
 			.tiles article:nth-child(6n):before {
-				background-color: #6fc3df;
+				/*background-color: #6fc3df;*/
+				background-image: url("sand.jpg");
+				background-size: 100%;
 			}
+
+			
 
 		@media screen and (max-width: 1280px) {
 
@@ -2922,7 +2944,7 @@ input, select, textarea {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			background-color: #2e3450;
+			background-color: #020202;
 		}
 
 			.spotlights > section > .image {
@@ -2984,7 +3006,7 @@ input, select, textarea {
 				-webkit-flex-direction: row-reverse;
 				-ms-flex-direction: row-reverse;
 				flex-direction: row-reverse;
-				background-color: #333856;
+				background-color: #1f1f2a;
 			}
 
 				.spotlights > section:nth-child(2n) > .content {
@@ -3098,7 +3120,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #2a2f4a;
+		background-color: #28282B;
 		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
 		cursor: default;
 		font-weight: 600;
@@ -3128,8 +3150,8 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
-				color: #242943;
+				background-color: #cfd0d5;
+				color: #28282bc8;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3364,7 +3386,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background-image: url("../../images/banner.jpg");
+		/*background-image: url("../../images/banner.jpg");*/
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -3394,7 +3416,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #242943;
+			/*background-color: #28282B;*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -3409,6 +3431,10 @@ input, select, textarea {
 		#banner h1 {
 			font-size: 3.25em;
 		}
+
+		#banner strong {
+		font-size: 1.2em;
+	}
 
 		#banner > .inner {
 			-moz-transition: opacity 1.5s ease, -moz-transform 0.5s ease-out, -moz-filter 0.5s ease, -webkit-filter 0.5s ease;
@@ -3573,7 +3599,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #2a2f4a;
+		background-color: #28282B;
 	}
 
 		#main > * {
@@ -3676,6 +3702,8 @@ input, select, textarea {
 		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		padding-top: 3.25em;
+		
+		
 	}
 
 		#wrapper.is-transitioning {
@@ -3688,6 +3716,7 @@ input, select, textarea {
 			max-width: 65em;
 			width: calc(100% - 6em);
 		}
+
 
 			@media screen and (max-width: 736px) {
 
@@ -3705,6 +3734,7 @@ input, select, textarea {
 			}
 
 		}
+
 
 /* Menu */
 
