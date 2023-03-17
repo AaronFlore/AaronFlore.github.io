@@ -188,10 +188,8 @@ html {
 }
 
 body {
-	background-image: url("cssImages/space3.jpg");
-	background-size: 70%;
-	background-repeat: repeat;
-	background-attachment: fixed;
+	background-color: #181818;
+
 }
 
 /* #28282B*/
@@ -2882,7 +2880,7 @@ button:disabled,
 	overflow: hidden;
 	position: relative;
 	width: 40%;
-	border-radius: 50%;
+	border-radius: 10%;
 	flex: 1 0 26%;
 	margin: 1.9%;
 }
@@ -2924,7 +2922,7 @@ button:disabled,
 	display: block;
 	height: 100%;
 	left: 0;
-	opacity: 1;
+	opacity: .75;
 	position: absolute;
 	width: 100%;
 	z-index: 2;
@@ -2964,40 +2962,29 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 5):before {
-	/*background-color: #87c5a4;*/
-	background-image: url("cssImages/green3.jpg");
-	background-size: 130%;
+	background-color: #87c5a4;
 }
 
 .tiles article:nth-child(6n - 4):before {
-	/*background-color: ##8d82c4*/
-	background-image: url("cssImages/moon4.jpg");
-	background-size: 105%;
+	background-color: #8ea9e8;
 }
 
 .tiles article:nth-child(6n - 3):before {
-	/*background-color: ##ec8d81*/
-	background-image: url("cssImages/purple2.jpg");
-	background-size: 100%;
+	background-color: #ec8d81;
 }
 
 .tiles article:nth-child(6n - 2):before {
-	/*background-color: ##e7b788;*/
-	background-image: url("cssImages/planet3.jpg");
-	background-size: 100%;
+	background-color: #e7b788;
 }
 
 .tiles article:nth-child(6n - 1):before {
-	/*background-color: ##8ea9e8;*/
-	background-image: url("cssImages/blue.jpg");
-	background-size: 100%;
+	background-color: #8d82c4;
 }
 
 .tiles article:nth-child(6n):before {
-	/*background-color: #6fc3df;*/
-	background-image: url("cssImages/sand.jpg");
-	background-size: 100%;
+	background-color: #6fc3df;
 }
+
 
 
 
@@ -3518,7 +3505,7 @@ body.is-preload #header.alt {
 	-webkit-align-items: center;
 	-ms-align-items: center;
 	align-items: center;
-	/*background-image: url("../../images/banner.jpg");*/
+	background-image: url("../../images/banner.jpg");
 	display: -moz-flex;
 	display: -webkit-flex;
 	display: -ms-flex;
@@ -3548,7 +3535,7 @@ body.is-preload #header.alt {
 	-ms-transition-delay: 0.75s;
 	transition-delay: 0.75s;
 	pointer-events: none;
-	/*background-color: #28282B;*/
+	background-color: #28282B;
 	content: '';
 	display: block;
 	height: 100%;
@@ -3565,7 +3552,16 @@ body.is-preload #header.alt {
 }
 
 #banner strong {
-	font-size: 1.2em;
+	color: #fff;
+	text-shadow:
+		0 0 7px #fff,
+		0 0 10px #fff,
+		0 0 21px #fff,
+		0 0 42px #0fa,
+		0 0 82px #0fa,
+		0 0 92px #0fa,
+		0 0 102px #0fa,
+		0 0 151px #0fa;
 }
 
 #banner>.inner {
