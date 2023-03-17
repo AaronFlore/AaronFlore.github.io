@@ -2883,6 +2883,7 @@ button:disabled,
 	border-radius: 10%;
 	flex: 1 0 26%;
 	margin: 1.9%;
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
 }
 
 .tiles article .image {
@@ -3057,6 +3058,8 @@ button:disabled,
 	-ms-flex-direction: row;
 	flex-direction: row;
 	background-color: #020202;
+	box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
 }
 
 .spotlights>section>.image {
@@ -3782,7 +3785,6 @@ body.is-preload #banner>.inner {
 	margin: 1em;
 	text-align: center;
 	border-radius: 5px;
-	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease-in-out;
 }
 
