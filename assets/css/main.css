@@ -2923,7 +2923,7 @@ button:disabled,
 	display: block;
 	height: 100%;
 	left: 0;
-	opacity: .75;
+	opacity: .85;
 	position: absolute;
 	width: 100%;
 	z-index: 2;
@@ -2963,7 +2963,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 5):before {
-	background-color: #87c5a4;
+	background-color: #ec8d81;
 }
 
 .tiles article:nth-child(6n - 4):before {
@@ -2971,7 +2971,7 @@ button:disabled,
 }
 
 .tiles article:nth-child(6n - 3):before {
-	background-color: #ec8d81;
+	background-color: #87c5a4;
 }
 
 .tiles article:nth-child(6n - 2):before {
